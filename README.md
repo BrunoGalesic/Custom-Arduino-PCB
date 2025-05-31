@@ -2,6 +2,7 @@ Custom Arduino UNO-Style Board
 
 This project is a custom-designed Arduino UNO-style board, created with KiCad 8.0, focusing on improved RF characteristics and robust performance. It features a 4-layer PCB design with enhanced power and ground integrity, additional user controls, and thoughtful RF/EMI protections.
 
+
  Features:
  
  4-layer PCB with wider power and ground traces for reduced resistance and improved signal integrity.
@@ -22,6 +23,7 @@ ATmega16U2-MU microcontroller for USB-to-serial conversion, enabling USB communi
 
 4 pushbutton switches and a 7-segment display connected via an I2C port expander for expanded user interaction.
 
+
  Design Considerations:
  
  Emphasis on RF performance and signal integrity with multi-layer routing and shielding.
@@ -31,6 +33,7 @@ Thoughtful placement of components to reduce noise and EMI interference.
 Added hardware elements such as TVS diodes for ESD protection on sensitive lines (like RESET).
 
 Designed with educational intent—to explore PCB design, RF characteristics, and protection mechanisms.
+
 
 
  Learning Outcomes:
